@@ -15,6 +15,6 @@ app.all('*', function(req, res, next) {
   /*让options请求快速返回*/ else next();
 });
 apiMocker(app, path.resolve('./mocker/mocker.js'));
-app.listen(3000, () => {
-  console.log('start at 3000');
+app.listen(4444, () => {
+  console.log('start at 4444');
 });

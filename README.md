@@ -1,2 +1,1 @@
-# imooc-hook-mocker
 
